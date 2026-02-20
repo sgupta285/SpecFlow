@@ -1,0 +1,17 @@
+{
+  "name": "specflow-api",
+  "version": "1.0.0",
+  "description": "Gemini API bridge for SpecFlow",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1"
+  }
+}
