@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.6",
+    "diff": "^8.0.3",
     "dotenv": "^16.6.1",
     "express": "^4.22.1"
   },
